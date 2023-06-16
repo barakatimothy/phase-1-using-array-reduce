@@ -1,3 +1,5 @@
-const batteryBatches = [4, 5, 3, 4, 4, 6, 5];
+const batteries = [10, 5, 8, 4, 4];
 
-// Code your solution here
+const reducer = (accumulator, currentValue) => accumulator + currentValue;
+
+const totalBatteries = batteries.reduce(reducer);
